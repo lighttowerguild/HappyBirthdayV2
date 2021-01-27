@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah&effect=fire-animation");
+
+body {
+  text-align: center;
+  background: url(images/minions.jpeg);
+  background-position: center center; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: auto;
+}
+
+div#bg {
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive, sans-serif;
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+[data-component="slideshow"] .slide {
+  display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+
+button#toggleconfetti {
+  border-radius: 50%;
+  font-size: 1em;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  opacity: 50%;
+}
+
+button#toggleconfetti:hover {
+  background-color: #3e8e41;
+  opacity: 100%;
+}
+
+button#toggleconfetti:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  opacity: 100;
+}
+
+@media only screen and (max-width: 1024px) {
+  img.slides {
+    width: 980px;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  img.slides {
+    width: 700px;
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  img.slides {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  img.slides {
+    width: 350px;
+    height: 271px;
+  }
+}
+
+/* @media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1em;
+    margin-top: .5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1em;
+    margin-top: .5em;
+  }
+}
+*/
+/*  
+img#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+*/
+/*  
+@media only screen and (max-width: 768px) {
+  img#bg {
+    height: 100%;
+  }
+} */
+
+/* img.slides {
+  padding: 10px; 
+  max-height: 612px;
+}
+
+@media only screen and (max-width: 600px) {
+  .slides {
+    width: 350px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .slides {
+    width: 350px;
+    height: auto;
+  }
+} */
+
+/* div.sscontainer {
+  height: 453px;
+}
+
+@media only screen and (max-width: 414px) {
+  div.sscontainer{
+    width: 100%;
+    height: auto;
+  }
+} */
